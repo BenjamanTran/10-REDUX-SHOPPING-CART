@@ -3,7 +3,6 @@ import Layout from './components/Layout/Layout';
 import Products from './components/Shop/Products';
 import { useDispatch, useSelector } from 'react-redux';
 import { useEffect, Fragment } from 'react';
-import { uiActions } from './store/ui-slice';
 import Notification from './components/UI/Notification';
 import { fetDataCart, sendCartData } from './store/cart-actions';
 

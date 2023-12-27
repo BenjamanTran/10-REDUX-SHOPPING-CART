@@ -2,7 +2,6 @@ import classes from './Notifycation.module.css';
 
 const Notification = (props) => {
   let specialClasses = '';
-  debugger
   if (props.status === 'error') {
     specialClasses = classes.error;
   }
